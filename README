@@ -19,6 +19,6 @@ my-python-docker-project/
 ## Building a Dockerfile
 $ docker build -t pythonimage .
 
-## Running a container from the newly built image
+*Running a container from the newly built image*
 $ docker run --name test1 pythonimage
 Hello World
