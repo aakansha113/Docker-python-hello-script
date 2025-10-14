@@ -13,7 +13,7 @@ my-python-docker-project/
 ├── h.py
 └── .dockerignore (optional)
 
-## steps:
+ steps:
 
 ## Write a Dockerfile
 ## Building a Dockerfile
