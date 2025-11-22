@@ -1,7 +1,8 @@
-Python Docker Project
+# Python Docker Project
 
 This project demonstrates running Python scripts inside a Docker container using a lightweight Alpine image.  
-It includes:
+
+## Features:
 
 - hello.py` and `h.py` — example Python scripts  
 - Dockerfile` — builds a minimal Docker image with Python 3.12 
@@ -13,12 +14,19 @@ my-python-docker-project/
 ├── h.py
 └── .dockerignore (optional)
 
- steps:
+## Steps:
+### Write a Dockerfile
 
-Write a Dockerfile
-Building a Dockerfile
+### Build a Dockerfile:
+```
 $ docker build -t pythonimage .
+```
 
-Running a container from the newly built image
+### Running a container from the newly built image
+```
 $ docker run --name test1 pythonimage
+```
+### The output will be:
+```
 Hello World
+```
