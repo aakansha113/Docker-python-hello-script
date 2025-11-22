@@ -1,6 +1,6 @@
 Python Docker Project
 
-This project demonstrates running Python scripts inside a **Docker container** using a **lightweight Alpine image**.  
+This project demonstrates running Python scripts inside a Docker container using a lightweight Alpine image.  
 It includes:
 
 - hello.py` and `h.py` — example Python scripts  
